@@ -48,7 +48,7 @@ for i in 1:n
 	end
 end
 
-#convert to dataframe and print top right corner for verification
+#convert to dataframe and print top left corner for verification
 dist_DF = DataFrame(dist_matx)
 println("First five rows and columns of distance matrix:")
 println(dist_DF[1:5, 1:5])
