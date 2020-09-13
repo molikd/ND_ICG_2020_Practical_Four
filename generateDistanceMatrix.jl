@@ -18,7 +18,7 @@ using CSV
 
 #Retrieve inputs
 inputSeqs=ARGS[1]
-inputLength=ARGS[2]
+inputLength=parse(Int, ARGS[2])
 outputDist=ARGS[3]
 
 #Read input sequences and convert to a matrix
@@ -32,8 +32,8 @@ numSeqs=length(seqsMat)
 distMat=zeros(numSeqs,numSeqs)
 
 #Loop over input sequences and compare each with all sequences
-for i in 1:n
-	for j in 1:n
+for i in 1:numSeqs
+	for j in 1:numSeqs
 		#Determine distance
 		dist=evaluate(Overlap(inputLength), seqsMat[i], seqsMat[j])
 		#Update distance matrix
