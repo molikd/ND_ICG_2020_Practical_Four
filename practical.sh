@@ -1,7 +1,6 @@
 #!/bin/bash
 #$ -M ebrooks5@nd.edu
 #$ -m abe
-#$ -pe smp 8
 #$ -N BIOS60132_Practical_Four
 
 #Load julia module

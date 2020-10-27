@@ -6,7 +6,7 @@
 #Usage Ex: julia ./generateDistanceMatrix.jl sequences.txt 3 sequenceDistances.csv
 
 #Add packages
-#import pkg
+#import Pkg
 #Pkg.add("StringDistances")
 #Pkg.add("DataFrames")
 #Pkg.add("CSV")
