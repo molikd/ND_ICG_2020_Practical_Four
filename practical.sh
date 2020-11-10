@@ -6,5 +6,6 @@
 module load bio/2.0
 module load julia
 
-julia ./distmat.jl --input "sequences.txt" --output "distMat.csv" --Jac 3
-
+julia distmat.jl --input "sequences.txt" \
+        --output "distanceMatrix.csv" \
+        --Jac 3
