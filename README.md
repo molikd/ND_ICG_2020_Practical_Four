@@ -1,4 +1,8 @@
 # ND\_ICG\_2020\_Practical\_Four
+
+I accidentally named my output file the same as my inpur file (oops) so I overwrote the file 
+
+
 Practical Four for Introduction to Computational Genomics
 
 This practical is intended to help you get used to julia commands and and coding. 
